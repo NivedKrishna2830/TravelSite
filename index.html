@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thefearfuladventurer</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <div class="container-fluid justify-content-between">
+    <!-- Left elements -->
+    <div class="d-flex">
+      <!-- Brand -->
+      <a class="navbar-brand me-2 mb-1 d-flex align-items-center " href="#">
+        <img
+          src="http://www.fearfuladventurer.com/wp-content/uploads/2017/07/logo.png"
+          height="70"
+          alt="MDB Logo"
+          loading="lazy"
+          style="margin-top: 2px;"
+        />
+      </a>
+
+      
+    <!-- Left elements -->
+    <footer class="bg-body-tertiary text-right">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class=" mb-4 ms-5">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating "
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/atlasandboots/"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="https://twitter.com/atlasandboots/"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="https://www.youtube.com/atlasandboots"
+            role="button"
+            ><i class="fab fa-youtube"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/atlasandboots/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.atlasandboots.com/feed/"
+            role="button"
+            ><i class="fab fa-rss"></i
+          ></a>
+          <!-- Github -->
+          
+          
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      
+    </footer>
+    
+   
+  </div>
+  
+</nav>
+
+<div class="sticky-top"><!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCenteredExample"
+      >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" ><button class="btn btn-light ">Home</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button class="btn btn-light " data-bs-toggle="modal" data-bs-target="#staticBackdrop">About Us</button></a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown">
+            <div class="dropdown">
+              <button class="btn btn-light mt-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Safety Guide</a></li>
+                <li><a class="dropdown-item" href="#">Travel Kits</a></li>
+                <li><a class="dropdown-item" href="#">Trip Planning</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link"
+              ><button class="btn btn-light " data-bs-toggle="modal" data-bs-target="#Connect">Connect</button></a
+            >
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  
+  </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="Connect" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Connect</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">About Us</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <h1>Hello</h1>
+          <h2>We are ATLAS & BOOTS</h2>
+          <p style="font-size:x-large;">Atlas & Boots is an award-winning outdoor travel blog covering thrilling activities in far-flung places, be it swimming with whales in the South Pacific or trekking the great ranges of Asia.
+
+            The founders, author Kia Abdullah and travel writer Peter Watson, started on opposite ends of the outdoor spectrum. In fact, a week after they met, Peter went off to Africa to climb Kilimanjaro while Kia remained warmly cocooned by her desk as writers prefer to be. Over the ensuing years, they drew each other towards the middle; to what they describe as outdoorsy-ish. <br>
+            Their readers are:</p>
+            <ul type="none">
+              <li><b>Outdoor enthusiasts</b> who enjoy nature and adventure but also a hot shower and nice bed at days end.</li>
+              <li><b>Boutique travellers</b> seeking authentic adventures in exotic places.</li>
+              <li><b>Exploration junkies</b> obsessed with maps, great expeditions and legends of yore.</li>
+            </ul>
+
+            <img src="https://www.atlasandboots.com/wp-content/uploads/2022/03/About-Kia-Peter-Argentina.jpg" alt="">
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://lp-cms-production.imgix.net/2021-10/GettyRF_545860943.jpg?auto=format&fit=crop&ar=1:1&q=75&w=1200" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>AFRICA</h5>
+        <p>Africa is the world's second-largest and second-most populous continent.</p>
+      </div>
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://www.ampersandtravel.com/media/424669/The-Oriental-Bangkok-Bangkok-Thailand-4-.jpg?mode=crop&width=1485" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ASIA</h5>
+        <p>Asia is the largest continent in the world by both land area and population</p>
+      </div>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://img.traveltriangle.com/attachments/pictures/881319/original/Europe-2-1366x350.jpg?tr=w-400px,h-150px" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>EUROPE</h5>
+        <p>Europe is a continent comprising the westernmost peninsulas of Eurasia</p>
+      </div>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://greenglobaltravel.com/wp-content/uploads/2021/03/Safest-countries-in-Middle-East.jpg" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MIDDLE EAST</h5>
+        <p>The Middle East is a geopolitical region encompassing the Arabian Peninsula, the Levant, Turkey, Egypt, Iran, and Iraq</p>
+      </div>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://cdn.enjoytravel.com/img/travel-news/the-10-most-visited-cities-in-north-america-hero.jpg" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>North America</h5>
+        <p>North America is a continent in the Northern and Western Hemispheres</p>
+      </div>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://i0.wp.com/www.sporcle.com/blog/wp-content/uploads/2019/02/3-5.jpg?resize=1280%2C720&ssl=1" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Oceania</h5>
+        <p>Oceania is a region made up of thousands of islands throughout the South Pacific.</p>
+      </div>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img style="height: 900px; width: 1200px;" src="https://www.myglobalviewpoint.com/wp-content/uploads/2023/08/Most-Beautiful-Places-in-South-America.jpg" class="d-block w-80 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>South America
+        </h5>
+        <p>South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere</p>
+      </div>
+    </center>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br><br><br>
+
+
+
+<section>
+  <h2 style="text-align: center;">LASTEST POSTS</h2><br><br>
+  <div class="container text-center ">
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="container">
+          <img src="https://www.atlasandboots.com/wp-content/uploads/2022/02/Epic-landscape-4-400x300.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">30 BEST BOOKS ABOUT ANTARCTICA: UPDATED FOR 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container">
+          <img src="https://www.atlasandboots.com/wp-content/uploads/2023/12/soviet-pole-of-inaccessilibity-lenin-bust-now-400x300.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">POLES OF INACCESSIBILITY: THE MIDDLE OF NOWHERE</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container">
+          <img src="https://www.atlasandboots.com/wp-content/uploads/2018/06/Whitehaven-Beach-Australia-2-400x300.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">THE BEST BEACHES WE VE EVER SEEN</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container">
+          <img src="https://www.atlasandboots.com/wp-content/uploads/2023/11/Snorkelling-Baros-Reef-Maldives-400x300.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">SNORKELLING BAROS REEF IN THE MALDIVES</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <center>
+    <p style="text-align: center; justify-content: center;font-size: xx-large;padding: 60px; font-family:monospace;">
+      Atlas & Boots is an award-winning outdoor travel blog read by over 150,000 people a month. If you’re a first-time visitor, this is a good place to start. Below, you will find our ‘best of’ collections: curated lists of our most popular content from the last nine years.
+
+You can also learn more about us, meet the founders (Kia Abdullah and Peter Watson), see who we’ve worked with on our press page or learn why Atlas & Boots has been repeatedly named the world’s best outdoor or adventure travel blog.
+    </p>
+  </center>
+</section>
+
+
+<section>
+  <h2 style="text-align: center;">LASTEST VIDEOS</h2><br><br>
+  <div class="clearfix" style="margin: 60px;">
+    <iframe class="col-md-6 float-md-end mb-3 ms-md-3" width="500" height="500" src="https://www.youtube.com/embed/mDYyB6o9QWk?si=hGUE70CABygul1_n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+    <h3>TREKKING THE FANN MOUNTAINS OF TAJIKISTAN: ALL YOU NEED TO KNOW</h3>
+    <p class="fst-italic">20TH SEPTEMBER 2023 BY PETER</p>
+
+    <b style="font-size: x-large;">Trekking the Fann Mountains of Tajikistan is an adventure through one of Central Asia’s hidden gems. Here’s how to make it happen</b>
+  
+    <p style="font-size: x-large;">
+      Tajikistan is the smallest of the Central Asian republics. Landlocked, misshapen and squished and squeezed by its neighbours, it has remained largely undiscovered by tourists even though it was at the centre of the Silk Road for much of its past.
+    
+  
+    
+      Following the collapse of the Soviet Union in 1991, the country descended into a devastating five-year civil war. As such, it grappled with poverty and instability throughout the 1990s rendering the country unsafe and off-limits to foreign visitors.
+
+Fast forward nearly three decades and the nascent tourism industry is still struggling to harness the country’s truly unique selling point: over 90% of its land is considered mountainous meaning that the best trekking in Central Asia is found in Tajikistan.I joined a 15-day expedition with Epic Backpacker Tours and spent nine days trekking the Fann Mountains of Tajikistan, camping beside glittering emerald lakes, crossing thrilling alpine passes and visiting remote mountain communities. On either side of the trek, the tour took in the stunning Silk Road cities of Samarkand and Bukhara in Uzbekistan, making for a genuinely unique itinerary.
+
+Here’s everything you need to know about trekking the Fann Mountains of Tajikistan.
+    </p>
+  </div>
+
+  <div class="clearfix" style="margin: 60px;">
+    <iframe class="col-md-6 float-md-end mb-3 ms-md-3" width="500" height="500" src="https://www.youtube.com/embed/1AnR-ipe-aU?si=gFMH-gfqsdld9tVN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>K2 BASE CAMP TREK: A WALK AMONG GIANTS IN THE KARAKORAM</h3>
+    <p class="fst-italic">16TH OCTOBER 2019 BY PETER
+    </p>
+
+    <b style="font-size: x-large;">The K2 base camp trek is a stunning journey to the foot of a legendary mountain in the Pakistani Karakoram</b>
+  
+    <p style="font-size: x-large;">
+      The K2 base camp trek through the mighty Karakoram mountains of Pakistan is one of the world’s finest high-altitude treks. Earlier this year an opportunity arose to join Lost Horizon Tours and Treks on a trek to K2 base camp combined with a crossing of the Gondogoro La Pass.
+      With over 25 years of experience guiding in the mountains of Pakistan, Lost Horizons were a great partner for an expedition of this kind. After completing the Everest base camp trek earlier in the year, I couldn’t resist the chance to trek to this infamous mountain too.
+
+At 8,611m (28,251ft), K2 is the second-highest mountain on Earth, one of just 14 eight-thousanders and a member of the seven second summits. A mere mention of the legendary mountain is enough to make one’s blood run cold. K2 is known as the ‘Savage Mountain’ due to the extremely difficult ascent and one of the highest fatality rates among the eight-thousanders.
+K2 is the only eight-thousander that has never been climbed in winter. Unpredictable avalanches mean that one in four summiteers die on its lethal slopes. K2 may be second in stature to Everest, but it demands significantly greater technical climbing skills. Known as the ‘mountaineer’s mountain’, it is often considered the ultimate challenge in high-altitude climbing.
+    </p>
+  </div>
+
+  <div class="clearfix" style="margin: 60px;">
+    <iframe class="col-md-6 float-md-end mb-3 ms-md-3" width="500" height="500" src="https://www.youtube.com/embed/LOF1qL-JHxE?si=htJAxQABlkiHZ1uG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+    <h3>IS ANTARCTICA WORTH IT?  AND ALL YOUR OTHER QUESTIONS ANSWERED </h3>
+    <p class="fst-italic">16TH FEBRUARY 2022 BY ATLAS & BOOTS
+
+    </p>
+
+    <b style="font-size: x-large;">The cynic, it is said, knows the price of everything and the value of nothing. It doesn’t make you a cynic, however, to question the value of a trip to Antarctica given the hefty price tag. Ranging from seven to twenty thousand dollars per person, it’s a once in a lifetime expense, so it’s perfectly natural to ask: is Antarctica worth it?</b>
+  
+    <p style="font-size: x-large;">
+      This is the question readers asked most frequently about our trip to the seventh continent. Value, of course, is subjective. Some people value an expensive wedding while others prefer to spend on the honeymoon. Some value a three-carat diamond while others prefer fine dining. Of course, we at Atlas & Boots value travel. 
+
+We have been to 80 countries across seven continents along with a number of remote outposts like Easter Island, the Faroes, the Galápagos and the Cooks. We have hiked on active volcanoes, dived with whale sharks, jumped out of planes and crossed landslides. We have been to the “end of the world”, seen World Wonders and the Northern Lights – and can say this without a doubt: Antarctica was our number one travel experience.
+Of course, the Antarctica of the BBC differs from the Antarctica of cruise ships. Small film crews can reach remote corners that commercial vessels cannot – but if you choose your expedition wisely, the great white continent will reveal itself in all its magnificent glory. Here’s what you need to know before you book your trip.
+    </p>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-outline-primary btn-lg" style="width: 100%; height: 400px;"data-bs-toggle="modal" data-bs-target="#Epic">Epic Treks</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-outline-warning" style="width: 100%; height: 100%;"data-bs-toggle="modal" data-bs-target="#Day">Day Hikes</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-outline-danger" style="width: 100%; height: 100%;" data-bs-toggle="modal" data-bs-target="#Seven">Seven Summits</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-outline-success" style="width: 100%; height: 400px;" data-bs-toggle="modal" data-bs-target="#Wild">WILDLIFE</button>
+      </div>
+      <div class="col">
+        <button type="button"  class="btn btn-outline-info" style="width: 100%; height: 100%;" data-bs-toggle="modal" data-bs-target="#Polar">POLAR TRAVEL</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-outline-dark" style="width: 100%; height: 100%;" data-bs-toggle="modal" data-bs-target="#Debate">DEBATE</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- Modal1 -->
+<div class="modal fade" id="Epic" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">EPIC TREKS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/k2-base-camp-trek-pakistan/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2019/10/K2-base-camp-trek-46-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">K2 BASE CAMP TREK: A WALK AMONG GIANTS IN THE KARAKORAM</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                 <a href="https://www.atlasandboots.com/travel-blog/trekking-the-arctic-circle-trail-greenland/" style="text-decoration: none; color: #333333;">
+                  <img src="https://www.atlasandboots.com/wp-content/uploads/2019/08/trekking-the-arctic-circle-trail-lead-2020-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">TREKKING THE ARCTIC CIRCLE TRAIL: A DREAM GOES UP IN SMOKE</p>
+                 </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/everest-base-camp-trek-nepal/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2019/04/Everest-base-camp-trek-40-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">EVEREST BASE CAMP TREK: TO THE HEART OF THE HIGH HIMALAYAS</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal2 -->
+<div class="modal fade" id="Day" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">DAY HIKES</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                 <a href="https://www.atlasandboots.com/travel-blog/hiking-sorvagsvatn-lake-faroe-islands/" style="text-decoration: none; color: #333333;" >
+                  <img src="https://www.atlasandboots.com/wp-content/uploads/2019/07/Hiking-S%C3%B8rva%CC%81gsvatn-Lake-house-2-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">HIKING SØRVÁGSVATN LAKE, FAROE ISLANDS</p>
+                 </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/climbing-carrauntoohil-irelands-highest-mountain/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2018/08/Climbing-Carrauntoohil-Irelands-Highest-Mountain-3-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">CLIMBING CARRAUNTOOHIL: IRELAND’S HIGHEST MOUNTAIN</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/climbing-adams-peak-sri-lanka/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2017/04/climbing-adams-peak-bell-mountain-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">CLIMBING ADAM’S PEAK: ALL 5,500 STEPS OF IT!</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal3 -->
+<div class="modal fade" id="Seven" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">SEVEN SUMMITS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/seven-summits-cost/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2020/04/How-much-does-it-cost-to-climb-the-seven-summits-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">HOW MUCH DOES IT COST TO CLIMB THE SEVEN SUMMITS?</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/climbing-aconcagua-argentina/"  style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2020/02/Peter-summit-Aconcagua-flag-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">CLIMBING ACONCAGUA: MY THIRD SEVEN SUMMIT</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/climbing-mount-elbrus-russia/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2017/11/Climbing-the-seven-summits-Elbrus-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">CLIMBING MOUNT ELBRUS: MY SECOND SEVEN SUMMIT</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal4 -->
+<div class="modal fade" id="Wild" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">WILDLIFE</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/phillip-island-penguin-parade/"  style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2018/05/Phillip-Island-Penguin-Parade-10-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">PHILLIP ISLAND PENGUIN PARADE: THE DAY WE SAW 613 PENGUINS</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/safari-in-etosha-national-park-namibia/"  style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2018/12/Safari-in-Etosha-National-Park-Namibia-12-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">SAFARI IN ETOSHA NATIONAL PARK: WHERE THE WILDLIFE COMES TO YOU</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/elephant-safari-udawalawe-national-park/"  style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2017/02/Udawalawe-National-Park-5-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">ELEPHANT SAFARI AT UDAWALAWE NATIONAL PARK</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal5 -->
+<div class="modal fade" id="Polar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">POLAR TRAVEL</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/in-photos-reasons-to-visit-antarctica/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2022/02/Gentoos-of-Neko-Harbour-lead-jpg-400x300.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">IN PHOTOS: 22 REASONS TO VISIT ANTARCTICA</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/midnight-sun-svalbard/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2022/10/Svalbard-midnight-sun-lead-image-2022-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">UNDER THE MIDNIGHT SUN: A SURREAL TRIP TO SVALBARD</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/northern-lights-tromso/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2016/11/Northern-Lights-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">CHASING THE NORTHERN LIGHTS IN TROMSO</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal6 -->
+<div class="modal fade" id="Debate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">DEBATE</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/does-outdoors-have-diversity-problem/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2016/12/outdoors-diversity-problem-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">DOES THE OUTDOORS REALLY HAVE A DIVERSITY PROBLEM?</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/quit-horse-riding/" style="text-decoration: none; color: #333333;">
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2020/08/quit-horse-riding-feat3-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">HANGING UP MY HAT: WHY I’VE CHOSEN TO QUIT HORSE RIDING</p>
+                  </a>
+                  </div>
+                </div>              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://www.atlasandboots.com/travel-blog/women-and-adventure/" style="text-decoration: none; color: #333333;"> 
+                    <img src="https://www.atlasandboots.com/wp-content/uploads/2017/07/snob-wild-movie-400x300.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">IT’S SEXIST TO ASSUME I’M NOT ADVENTUROUS</p>
+                  </a>
+                  </div>
+                </div>              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-body-tertiary text-center" style="margin-top: 100px;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="data:image/png;base64,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" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://shop.lonelyplanet.com/cdn/shop/files/Slice_b89ac5a1-c7d4-4513-83b3-2d27ce2ceeb5_1200x1200_crop_center.png?v=1695224794" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="data:image/png;base64,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" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://secretbay.dm/wp-content/uploads/2019/01/Fodors_logo_bw.png" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://www.markpollock.com/wp-content/uploads/2019/03/kisspng-the-daily-telegraph-newspaper-logo-united-kingdom-5b331cebb49f71.4081396515300763957398.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://avpn.asia/wp-content/uploads/2016/03/National-Geographic-logo.png" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2020 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">atlasandboots.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+</body>
+</html>
